@@ -1,0 +1,29 @@
+1- 6,
+   8
+
+2- True
+
+3- 1	
+   2
+   3
+
+4- 
+
+5- 20 
+   NAN
+
+6- error, colorChange is a static method, it's called on the class, not the object.
+
+7- error,
+
+8- true
+   true
+   false
+   true
+
+9- Lydia is 21
+[Function: bound sayHi]
+
+10- undefined,
+    number
+
