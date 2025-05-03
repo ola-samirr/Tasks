@@ -3,8 +3,13 @@ const mongoose = require("mongoose");
 const path = require("path");
 const employeeRoutes = require("./routes/employees");
 
+
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+const methodOverride = require('method-override');
+app.use(methodOverride('_method'));
+
 mongoose.connect("mongodb://127.0.0.1:27017/employees-db", {
   useNewUrlParser: true,
   useUnifiedTopology: true
